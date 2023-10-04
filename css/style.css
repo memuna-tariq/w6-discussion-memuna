@@ -1,0 +1,113 @@
+body {
+  /* Set line spacing */
+  line-height: 2;
+  margin: 20px;
+}
+
+header,
+nav {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /* Set padding and margin */
+}
+nav ul li {
+  /* Set display, margin, padding, font-size, background-color */
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  font-size: 10px;
+  background-color: lightpink;
+}
+
+nav a {
+  /* Set text decoration*/
+  text-decoration: none;
+}
+
+a:visited {
+  /* Set color */
+  color: black;
+}
+
+nav a.current {
+  /* Set text decoration, transformation, and underline properties */
+  /* add a wavy underline*/
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-transform: uppercase;
+}
+
+h1 {
+  /*Set font and font size*/
+  font-size: 30px;
+  font-family: Merriweather, Anton, "Times New Roman", Times;
+}
+
+h2 {
+  /*Set font, font size, and alignment*/
+}
+
+h3 {
+  /*Set font size*/
+}
+
+h1,
+h2,
+h3 {
+  /*Set margin */
+}
+.grid {
+  /*Set width, margin, border properties, background color, and grid properties */
+  display: grid;
+
+  /* center aligns the grid on the page */
+  margin: auto;
+
+  grid-template-columns: 30% 30% 30%;
+  width: 90%;
+  justify-content: space-between;
+  row-gap: 10px;
+}
+
+.grid div {
+  /* Set border properties, padding, and background color */
+  border-radius: 10px;
+  border: solid 3px black;
+}
+
+.grid img {
+  /* Set width, margin, and display */
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+
+.grid div:nth-child(3n + 1) {
+  /* Set box shadow */
+}
+
+.grid div:nth-child(3n) {
+  /* Set box shadow */
+}
+
+.grid div:nth-child(3n + 2) {
+  /* Set box shadow */
+}
+
+p + p {
+  /* Set indentation */
+}
+
+p {
+  /* Set margin */
+}
+
+.grid ul li {
+  /* Set margin, line-spacing, list styling  */
+}
