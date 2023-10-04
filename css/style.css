@@ -73,6 +73,9 @@ h3 {
   width: 90%;
   justify-content: space-between;
   row-gap: 10px;
+
+  border-radius: 10px;
+  border: solid 3px black;
 }
 
 .grid div {
